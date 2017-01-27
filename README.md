@@ -1,10 +1,12 @@
-# Pour compiler
-gcc -W -Wextra -pedantic main.c fonctionsSudoku.c -o prog
+#Sudoku Solver (Résolution de sudoku)
 
-# Pour executer sans options
+## Compilation
+gcc -W main.c fonctionsSudoku.c -o prog
+
+## Pour executer sans options
 ./prog fichier.txt
 
-## Avec l'option -print
+## Avec l'option -print (affichage avant / après)
 ./prog fichier.txt -print
 
 ## Avec l'option -verbose

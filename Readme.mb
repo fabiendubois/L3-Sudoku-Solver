@@ -1,9 +1,7 @@
-Compilation avec gcc sous Linux 
-
-#Pour compiler
+# Pour compiler
 gcc -W -Wextra -pedantic main.c fonctionsSudoku.c -o prog
 
-#Pour executer sans options 
+# Pour executer sans options
 ./prog fichier.txt
 
 ## Avec l'option -print

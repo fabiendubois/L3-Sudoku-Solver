@@ -1,7 +1,7 @@
 #Sudoku Solver (Résolution de sudoku)
 
 ## Compilation
-gcc -W main.c fonctionsSudoku.c -o prog
+`gcc -W main.c fonctionsSudoku.c -o prog`
 
 ## Pour executer sans options
 ./prog fichier.txt

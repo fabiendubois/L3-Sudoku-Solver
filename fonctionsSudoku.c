@@ -35,7 +35,7 @@ void ecrireSudoku(int **tab,int iMax, int jMax)
   FILE* fichier2 = NULL;
 
   /* Ouverture du fichier result.txt, utilisation du mode a+ pour l'ajout à la fin du fichier des lignes de résultats. Si le fichier n'existe pas alors il sera créé. */
-  fichier2 = fopen("solution{DUBOIS}{RATO}.txt", "a+");
+  fichier2 = fopen("solution.txt", "a+");
   int i,j,h;
   h = 0;
   for(i = 0 ; i  < iMax ; i++)

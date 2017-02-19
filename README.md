@@ -1,17 +1,17 @@
-#Sudoku Solver (Résolution de sudoku)
+#Sudoku Solver 
 
 ## Compilation
 `gcc -W main.c fonctionsSudoku.c -o prog`
 
-## Pour executer sans options
-`./prog fichier.txt`
+## without Options
+`./prog test.txt`
 
-## Avec l'option -print (affichage avant / après)
-`./prog fichier.txt -print`
+## -print (before / after)
+`./prog test.txt -print`
 
-## Avec l'option -verbose
-`./prog fichier.txt -verbose`
+## -verbose
+`./prog test.txt -verbose`
 
-## Avec l'option -timeAlert
-`./prog fichier.txt -timeAlert`
-Pour cette option il faut saisir un temps du type "X.X" ou "X".
+## -timeAlert
+`./prog test.txt -timeAlert`
+time like "X.X" ou "X".

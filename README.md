@@ -3,7 +3,7 @@
 ## Compilation
 `gcc -W main.c fonctionsSudoku.c -o prog`
 
-## without Options
+## without options
 `./prog test.txt`
 
 ## -print (before / after)

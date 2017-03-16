@@ -1,4 +1,4 @@
-#Sudoku Solver 
+# Sudoku Solver 
 
 ## Compilation
 `gcc -W main.c fonctionsSudoku.c -o prog`
